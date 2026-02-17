@@ -89,7 +89,7 @@ text-align: center;
 }
 .title{
     background:#6F574D;
-    padding:100px 60px;
+    padding: 80px; 
 }
 .locations{
     background:#020817;
@@ -129,8 +129,8 @@ text-align: center;
     overflow:hidden;
 }
 .location-img{
-    position:relative;
-    overflow:hidden;
+      position:relative;
+       overflow:hidden;
 }
 
 .location-img img{
@@ -229,6 +229,8 @@ text-align: center;
   font-size: 14px;
   cursor: pointer;
   border-radius: 60px;
+  font-family: DM Sans, system-ui, sans-serif;
+  font-weight: 500;
   }
 .footer{
     background-color:  #6F574D;
@@ -266,7 +268,6 @@ text-align: center;
     color:#ddcdc3 ;
     margin-bottom:8px ;
     font: size 14px;
-    transition: 0.3s;
     line-height: 1.27/.875;
 }
 .footer a:hover{
@@ -312,10 +313,10 @@ gap: 12px;
 }
 .social-icons img{
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 38px;
     margin-right: 10px;
-    background-color: #8a6a58;
+    background-color: #846358;
     padding: 8px;
     border-radius: 50%;
     transition: 0.3s;
