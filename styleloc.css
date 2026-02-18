@@ -8,19 +8,19 @@
 body{
     overflow-x: hidden;
     background-color: #111827;
-
 }
 
 /* body {
     font-family: 'Arial', sans-serif;
 } */
 .header {
-  background: #6F574D;
+  background: #6f574d;
   padding: 25px 60px;
-  position: sticky;
+  position: fixed;
   top: 0;
   justify-items: center;
   z-index: 100;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -28,7 +28,7 @@ body{
   align-items: center;
   line-height: 20px;
   max-width: 1200px;
-    gap: 200px;
+  gap: 200px;
 }
 .logo{
     display:flex;
@@ -221,7 +221,7 @@ text-align: center;
 }
 .contact-btn{
     
-  width: 2%;
+  width: 10%;
   padding: 12px ;
   background: #846358;
   border: none;
@@ -313,8 +313,8 @@ gap: 12px;
 }
 .social-icons img{
     color: white;
-    width: 50px;
-    height: 38px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     background-color: #846358;
     padding: 8px;
@@ -375,6 +375,10 @@ html,body{
 .navbar{
     gap:20px;
     padding:0 20px;
+    width: 100%;
+}
+.navbar{
+    justify-content:space-between;
 }
 .nav-optionss{
     display:none;
@@ -468,6 +472,9 @@ html,body{
 @media (max-width:480px) {
   .navbar{
     gap: 40px;
+  }
+  .contact-btn{
+    width: 90%;
   }
     .logo-text span{
         display: none;

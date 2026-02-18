@@ -2,7 +2,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  overflow-x: hidden;
+}
 .header {
   background: #6f574d;
   padding: 25px 60px;
