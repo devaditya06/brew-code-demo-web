@@ -462,3 +462,62 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width:992px){
+  .navbar{
+    justify-content:space-between;
+}
+
+.nav-optionss{
+    display:none;
+}
+
+.oo-btn{
+    margin-right:0;
+}
+  .footer-top{
+    grid-template-columns:1fr;
+    gap:40px;
+}
+
+.all-contents{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.timecontact{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+@media (max-width:768px){
+#header{
+    padding:15px 0;
+}
+.all-contents{
+    grid-template-columns:1fr;
+}
+
+.timecontact{
+    grid-template-columns:1fr;
+}
+
+.copyright{
+    flex-direction:column;
+    text-align:center;
+    gap:10px;
+}
+@media (max-width:480px) {
+  .navbar{
+    gap: 40px;
+  }
+    .logo-text span{
+        display: none;
+    }
+    .logo-text{
+      white-space: nowrap;
+    }
+    .oo-btn{
+      white-space: nowrap;
+    }
+}
+}
