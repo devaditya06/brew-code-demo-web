@@ -225,29 +225,29 @@ body {
   text-align: center;
 }
 .blurred-circle-w {
-  width: 100px;
-  height: 80px;
+  width: 59px;
+  height: 60px;
   background-color: #f9f9f9;
   border-radius: 50%;
   filter: blur(10px);
   opacity: 0.4;
   display: flex;
-  position: absolute;
-  top: 220px;
-  left: 80%;
+  position:relative;
+  top: 5px;
+  left:95%;
 }
 .blurred-circle-y {
-  position: absolute;
-  width: 100px;
+  position: relative;
+  width: 59px;
   display: flex;
-  height: 80px;
+  height: 60px;
   background-color: #ebdc0d;
   border-radius: 50%;
   filter: blur(10px);
   opacity: 0.5;
   bottom: 0px;
-  top: 680px;
-  right: 45%;
+  top: 480px;
+  left: 55%;
 }
 #menu-section {
   background: #020817;
@@ -1186,6 +1186,7 @@ h2 {
   font-size: 28px;
   color: white;
 }
+
 @media (max-width: 1200px) {
   .hero {
     padding: 60px 40px;
@@ -1195,7 +1196,6 @@ h2 {
     width: 620px;
     height: 6620px;
   }
-
   .menu-section {
     padding: 70px 40px;
   }
@@ -1335,12 +1335,12 @@ h2 {
     padding-top: 0;
   }
   .blurred-circle-w {
-    top: 530px;
-    right: 20%;
+    top: 680px;
+    right: 1%;
   }
   .blurred-circle-y {
-    top: 770px;
-    right: 70%;
+    top: 880px;
+    left: 9%;
   }
   .craft,
   .passion {
