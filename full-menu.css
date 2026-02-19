@@ -1,8 +1,12 @@
 * {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-body{
+html {
+  overflow-x: hidden;
+}
+body {
   overflow-x: hidden;
 }
 .header {
@@ -466,7 +470,6 @@ body {
 @media (max-width: 992px) {
   .navbar {
     justify-content: space-between;
-
   }
   .nav-optionss {
     display: none;
@@ -501,17 +504,17 @@ body {
     gap: 10px;
   }
 }
-@media (max-width:480px) {
-  .navbar{
+@media (max-width: 480px) {
+  .navbar {
     gap: 40px;
   }
-    .logo-text span{
-        display: none;
-    }
-    .logo-text{
-      white-space: nowrap;
-    }
-    .oo-btn{
-      white-space: nowrap;
-    }
+  .logo-text span {
+    display: none;
+  }
+  .logo-text {
+    white-space: nowrap;
+  }
+  .oo-btn {
+    white-space: nowrap;
+  }
 }
